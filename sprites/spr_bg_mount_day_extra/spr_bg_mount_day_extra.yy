@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bg_mount_day_extra",
   "bboxMode":0,
   "bbox_bottom":1079,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a203dbef-d034-498d-97b0-5eb3cfe5f5a3","name":"a203dbef-d034-498d-97b0-5eb3cfe5f5a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a203dbef-d034-498d-97b0-5eb3cfe5f5a3","name":"a203dbef-d034-498d-97b0-5eb3cfe5f5a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

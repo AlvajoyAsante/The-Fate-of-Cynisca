@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_sky_night",
   "bboxMode":0,
   "bbox_bottom":1079,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ca6bb97f-9ebd-4e5c-962c-c2b0533b79a0","name":"ca6bb97f-9ebd-4e5c-962c-c2b0533b79a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ca6bb97f-9ebd-4e5c-962c-c2b0533b79a0","name":"ca6bb97f-9ebd-4e5c-962c-c2b0533b79a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
