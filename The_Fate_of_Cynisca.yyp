@@ -35,7 +35,10 @@
   },
   "name":"The_Fate_of_Cynisca",
   "resources":[
-    {"id":{"name":"rm_test_room","path":"rooms/rm_test_room/rm_test_room.yy",},},
+    {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"id":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
+    {"id":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
+    {"id":{"name":"rm_level_tutorial","path":"rooms/rm_level_tutorial/rm_level_tutorial.yy",},},
     {"id":{"name":"spr_bg_mount_day_1","path":"sprites/spr_bg_mount_day_1/spr_bg_mount_day_1.yy",},},
     {"id":{"name":"spr_bg_mount_day_extra","path":"sprites/spr_bg_mount_day_extra/spr_bg_mount_day_extra.yy",},},
     {"id":{"name":"spr_bg_mount_night_1","path":"sprites/spr_bg_mount_night_1/spr_bg_mount_night_1.yy",},},
@@ -52,7 +55,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_test_room","path":"rooms/rm_test_room/rm_test_room.yy",},},
+    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
+    {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
+    {"roomId":{"name":"rm_level_tutorial","path":"rooms/rm_level_tutorial/rm_level_tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
