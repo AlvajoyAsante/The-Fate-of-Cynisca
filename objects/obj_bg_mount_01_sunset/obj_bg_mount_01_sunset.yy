@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bg_ground",
+  "%Name":"obj_bg_mount_01_sunset",
   "eventList":[],
   "managed":true,
-  "name":"obj_bg_ground",
+  "name":"obj_bg_mount_01_sunset",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bg_mount_sunset_1",
+    "path":"sprites/spr_bg_mount_sunset_1/spr_bg_mount_sunset_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

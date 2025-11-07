@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_sky_sunset",
   "bboxMode":0,
   "bbox_bottom":1079,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ce6a99bd-c47a-4426-bb17-76bcc09e2707","name":"ce6a99bd-c47a-4426-bb17-76bcc09e2707","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce6a99bd-c47a-4426-bb17-76bcc09e2707","name":"ce6a99bd-c47a-4426-bb17-76bcc09e2707","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

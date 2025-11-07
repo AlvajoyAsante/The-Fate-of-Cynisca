@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bg_mount_02",
+  "%Name":"obj_sky_day",
   "eventList":[],
   "managed":true,
-  "name":"obj_bg_mount_02",
+  "name":"obj_sky_day",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_sky_day",
+    "path":"sprites/spr_sky_day/spr_sky_day.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
