@@ -35,7 +35,7 @@
   },
   "name":"The_Fate_of_Cynisca",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_test_room","path":"rooms/rm_test_room/rm_test_room.yy",},},
     {"id":{"name":"spr_bg_moon","path":"sprites/spr_bg_moon/spr_bg_moon.yy",},},
     {"id":{"name":"spr_bg_mount_day_1","path":"sprites/spr_bg_mount_day_1/spr_bg_mount_day_1.yy",},},
     {"id":{"name":"spr_bg_mount_day_extra","path":"sprites/spr_bg_mount_day_extra/spr_bg_mount_day_extra.yy",},},
@@ -53,7 +53,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_test_room","path":"rooms/rm_test_room/rm_test_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
