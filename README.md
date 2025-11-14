@@ -66,5 +66,7 @@ You’ll race through three major levels, each with personal stakes:
 ### Credits
 
 **Developed by:** *Team Dragon Slayers*
+
 **Members:** Alvajoy Asante, Preetam Hegde, Kate Russell, Aditya Borkar
+
 **Created for:** ITSC 5230
