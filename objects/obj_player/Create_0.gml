@@ -1,3 +1,8 @@
-move_timer = 0;
-move_cooldown = 5;     // minimum frames between moves
-move_distance = 25;     // how far to move per key press
+move_speed = 0;
+move_acceleration = 5;      // Acceleration per key tap
+move_deceleration = 0.3;    // How fast the speed tapers off
+move_max_speed = 5;         // Maximum speed
+w_press_count = 0;
+finish_spawned = false;
+marker_instance = noone;
+marker_timer = 0;
