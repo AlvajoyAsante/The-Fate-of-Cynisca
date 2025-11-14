@@ -41,24 +41,20 @@ You’ll race through three major levels, each with personal stakes:
 
 | Action        | Control         |
 | ------------- | --------------- |
-| Move Forward  | W / Up Arrow    |
-| Move Backward | S / Down Arrow  |
-| Turn Left     | A / Left Arrow  |
-| Turn Right    | D / Right Arrow |
-| Use Power-Up  | Spacebar        |
-| Brake         | Shift           |
-| Pause Menu    | Esc             |
-| Restart Race  | R               |
+| Speed Up  | <kbd>Up Arrow </kbd>    |
+| Use Power-Up  | <kbd>Spacebar</kbd>        |
+| Brake         | <kbd>Shift</kbd>           |
+| Pause Menu    | <kbd>Esc</kbd>             |
+| Restart Race  | <kbd>R</kbd>               |
 
 
 
 ##  Cheat Codes
 | Action        | Control         |
 | ------------- | --------------- |
-| In-Progress | In-Progress     |
-| In-Progress  | In-Progress   |
-| In-Progress  | In-Progress   |
-| In-Progress  | In-Progress  |
+| Unlimited Boost | <kbd>F1</kbd>     |
+| Stop Enemy  | <kbd>F2</kbd>   |
+| Pass All Levels  | <kbd>F3</kbd> |
 
 
 ---
