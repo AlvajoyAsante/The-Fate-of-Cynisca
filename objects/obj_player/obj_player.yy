@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"c_c_h_1",
-    "path":"sprites/c_c_h_1/c_c_h_1.yy",
+    "name":"spr_cynisca_run_day",
+    "path":"sprites/spr_cynisca_run_day/spr_cynisca_run_day.yy",
   },
   "spriteMaskId":null,
   "visible":true,
