@@ -69,6 +69,7 @@
     {"id":{"name":"spr_placeholder_emeny_lvl2","path":"sprites/spr_placeholder_emeny_lvl2/spr_placeholder_emeny_lvl2.yy",},},
     {"id":{"name":"spr_placeholder_emeny_lvl3","path":"sprites/spr_placeholder_emeny_lvl3/spr_placeholder_emeny_lvl3.yy",},},
     {"id":{"name":"spr_placeholder_finish_line","path":"sprites/spr_placeholder_finish_line/spr_placeholder_finish_line.yy",},},
+    {"id":{"name":"spr_placeholder_powerup","path":"sprites/spr_placeholder_powerup/spr_placeholder_powerup.yy",},},
     {"id":{"name":"spr_sky_day","path":"sprites/spr_sky_day/spr_sky_day.yy",},},
     {"id":{"name":"spr_sky_night","path":"sprites/spr_sky_night/spr_sky_night.yy",},},
     {"id":{"name":"spr_sky_sunset","path":"sprites/spr_sky_sunset/spr_sky_sunset.yy",},},

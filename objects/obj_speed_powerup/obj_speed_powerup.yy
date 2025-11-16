@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite25",
-    "path":"sprites/Sprite25/Sprite25.yy",
+    "name":"spr_placeholder_powerup",
+    "path":"sprites/spr_placeholder_powerup/spr_placeholder_powerup.yy",
   },
   "spriteMaskId":null,
   "visible":true,
