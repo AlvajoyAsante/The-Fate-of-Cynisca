@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite15",
-    "path":"sprites/Sprite15/Sprite15.yy",
+    "name":"spr_placeholder_finish_line",
+    "path":"sprites/spr_placeholder_finish_line/spr_placeholder_finish_line.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite24",
-    "path":"sprites/Sprite24/Sprite24.yy",
+    "name":"spr_placeholder_emeny_lvl3",
+    "path":"sprites/spr_placeholder_emeny_lvl3/spr_placeholder_emeny_lvl3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
