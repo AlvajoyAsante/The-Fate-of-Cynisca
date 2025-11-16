@@ -19,4 +19,27 @@ if (keyboard_check_pressed(ord("W"))) {
     w_press_count += 1;
     // Optionally, movement code here...
 }
+if (has_powerup && keyboard_check_pressed(vk_space) && !powerup_active) {
+    powerup_active = true;
+    powerup_timer = room_speed * 5;
+	// 5 seconds duration, assuming room_speed = FPS
+	show_debug_message("Powerup_online");
+
+    has_powerup = false;
+
+    // Example effect: Increase player speed temporarily
+    move_max_speed *= 2; // Double max speed during powerup
+}
+if (powerup_active) {
+    powerup_timer -= 1;
+
+    if (powerup_timer <= 0) {
+        powerup_active = false;
+        
+        // Reset effect, e.g. restore player speed to original
+        move_max_speed /= 5;
+		show_debug_message("Powerup_offline");
+		
+    }
+}
 

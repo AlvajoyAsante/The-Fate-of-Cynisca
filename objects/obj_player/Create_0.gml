@@ -6,3 +6,7 @@ w_press_count = 0;
 finish_spawned = false;
 marker_instance = noone;
 marker_timer = 0;
+powerup_active = false;
+powerup_timer = 0;
+has_powerup = false;      // Whether player has a powerup in inventory
+
