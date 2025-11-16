@@ -2,11 +2,16 @@
 if (keyboard_check_pressed(vk_up)) {        // Or use pressed for step-by-step
     move_speed += move_acceleration;
 }
+show_debug_message(layer_background_get_id("Ground"))
+//layer_vspeed(layer_background_get_id("Ground"), -10);
 
 // Decelerate smoothly
 if (move_speed > 0) {
     move_speed -= move_deceleration;
     if (move_speed < 0) move_speed = 0;
+	
+	
+	
 }
 
 // Clamp to max
@@ -37,7 +42,7 @@ if (powerup_active) {
         powerup_active = false;
         
         // Reset effect, e.g. restore player speed to original
-        move_max_speed /= 5;
+        move_max_speed = 5;
 		show_debug_message("Powerup_offline");
 		
     }
