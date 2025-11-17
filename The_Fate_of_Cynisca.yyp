@@ -95,6 +95,7 @@
     {"id":{"name":"spr_placeholder_emeny_lvl2","path":"sprites/spr_placeholder_emeny_lvl2/spr_placeholder_emeny_lvl2.yy",},},
     {"id":{"name":"spr_placeholder_emeny_lvl3","path":"sprites/spr_placeholder_emeny_lvl3/spr_placeholder_emeny_lvl3.yy",},},
     {"id":{"name":"spr_placeholder_finish_line","path":"sprites/spr_placeholder_finish_line/spr_placeholder_finish_line.yy",},},
+    {"id":{"name":"spr_placeholder_game_title","path":"sprites/spr_placeholder_game_title/spr_placeholder_game_title.yy",},},
     {"id":{"name":"spr_placeholder_larrow_button","path":"sprites/spr_placeholder_larrow_button/spr_placeholder_larrow_button.yy",},},
     {"id":{"name":"spr_placeholder_powerup","path":"sprites/spr_placeholder_powerup/spr_placeholder_powerup.yy",},},
     {"id":{"name":"spr_placeholder_rarrow_button","path":"sprites/spr_placeholder_rarrow_button/spr_placeholder_rarrow_button.yy",},},
