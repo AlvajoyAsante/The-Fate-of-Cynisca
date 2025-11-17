@@ -1,6 +1,12 @@
 if (global.game_over) {
     speed = 0;
 }
+
+// CHEAT: Stop Enemy
+if (global.cheat_stop_enemy) {
+    speed = 0;
+}
+
 // Countdown the timer every frame
 enemy_slow_timer -= 1;
 

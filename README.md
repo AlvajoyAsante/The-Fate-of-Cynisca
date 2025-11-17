@@ -54,7 +54,10 @@ You’ll race through three major levels, each with personal stakes:
 | ------------- | --------------- |
 | Unlimited Boost | <kbd>F1</kbd>     |
 | Stop Enemy  | <kbd>F2</kbd>   |
-| Pass All Levels  | <kbd>F3</kbd> |
+| Skip Level  | <kbd>F3</kbd> |
+| Invincibility | <kbd>F4</kbd> |
+| Slow Motion | <kbd>F5</kbd> |
+| Teleport to Finish | <kbd>F6</kbd> |
 
 
 ---

@@ -2,7 +2,7 @@
 if (keyboard_check_pressed(vk_up)) {        // Or use pressed for step-by-step
     move_speed += move_acceleration;
 }
-show_debug_message(layer_background_get_id("Ground"))
+//show_debug_message(layer_background_get_id("Ground"))
 //layer_vspeed(layer_background_get_id("Ground"), -10);
 
 // Decelerate smoothly
@@ -46,5 +46,10 @@ if (powerup_active) {
 		show_debug_message("Powerup_offline");
 		
     }
+}
+
+// CHEAT: Unlimited Boost - keep speed at max
+if (global.cheat_unlimited_boost) {
+    move_speed = move_max_speed;
 }
 
