@@ -64,8 +64,15 @@ You’ll race through three major levels, each with personal stakes:
 
 ### Credits
 
-**Developed by:** *Team Dragon Slayers*
+**Developed by:** *Dragon Slayers*
 
 **Members:** Alvajoy Asante, Preetam Hegde, Kate Russell, Aditya Borkar
 
 **Created for:** ITSC 5230
+
+---
+
+### License
+This project is licensed under the BSD License - see the [LICENSE](LICENSE) file for details. 
+
+All Artwork and Code © 2025 Dragon Slayers.
