@@ -1,1 +1,1 @@
-video_open("cut_scene_demo.mp4")
+video_open(video_name)

@@ -10,8 +10,8 @@
   "name":"obj_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"game_play",
+    "path":"folders/Objects/game_play.yy",
   },
   "parentObjectId":null,
   "persistent":false,
