@@ -3,3 +3,4 @@ if (!global.game_over) {
     global.result_message = "You Win! Press R to Restart";
 	speed=0;
 }
+auto_move = true;
