@@ -4,7 +4,7 @@
 if (keyboard_check(vk_up)) {        // Or use pressed for step-by-step
     move_speed += move_acceleration;
 }
-show_debug_message(layer_background_get_id("Ground"))
+//show_debug_message(layer_background_get_id("Ground"))
 //layer_vspeed(layer_background_get_id("Ground"), -10);
 
 // Decelerate smoothly
@@ -60,5 +60,10 @@ if (!keyboard_check(vk_up)) {
     // Optionally, if you have a running or moving sprite, set it here
 	sprite_index = spr_cynisca_run_day;
     image_speed = 0.5;
+}
+
+// CHEAT: Unlimited Boost - keep speed at max
+if (global.cheat_unlimited_boost) {
+    move_speed = move_max_speed;
 }
 

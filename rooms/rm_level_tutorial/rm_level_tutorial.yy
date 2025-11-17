@@ -22,8 +22,8 @@
   ],
   "name":"rm_level_tutorial",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"levels",
+    "path":"folders/Rooms/levels.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -43,7 +43,11 @@
   },
   "sequenceId":null,
   "views":[
+<<<<<<< HEAD
     {"hborder":1920,"hport":1080,"hspeed":-1,"hview":1080,"inherit":false,"objectId":null,"vborder":1080,"visible":true,"vspeed":-1,"wport":1920,"wview":1920,"xport":0,"xview":0,"yport":0,"yview":0,},
+=======
+    {"hborder":4000,"hport":1080,"hspeed":-1,"hview":1080,"inherit":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"vborder":4900,"visible":true,"vspeed":-1,"wport":1920,"wview":1920,"xport":0,"xview":0,"yport":0,"yview":0,},
+>>>>>>> 60cb21fa5c5f7c6094fe9e192ed6ab51e4e670a0
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
