@@ -7,3 +7,4 @@ if (!global.game_over) {
 	// Create fireworks celebration
 	instance_create_depth(0, 0, -1000, obj_fireworks);
 }
+auto_move = true;

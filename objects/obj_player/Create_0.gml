@@ -9,5 +9,7 @@ marker_timer = 0;
 powerup_active = false;
 powerup_timer = 0;
 has_powerup = false;  
+auto_move = false;
+;
 // Whether player has a powerup in inventory
 

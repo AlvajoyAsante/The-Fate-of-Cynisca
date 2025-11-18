@@ -1,5 +1,7 @@
+
+
 // Add acceleration when key is held or pressed
-if (keyboard_check_pressed(vk_up)) {        // Or use pressed for step-by-step
+if (keyboard_check(vk_up)) {        // Or use pressed for step-by-step
     move_speed += move_acceleration;
 }
 //show_debug_message(layer_background_get_id("Ground"))
@@ -8,11 +10,14 @@ if (keyboard_check_pressed(vk_up)) {        // Or use pressed for step-by-step
 // Decelerate smoothly
 if (move_speed > 0) {
     move_speed -= move_deceleration;
-    if (move_speed < 0) move_speed = 0;
-	
-	
-	
+    if (move_speed < 0) move_speed = 0;			
 }
+if (auto_move || keyboard_check_pressed(vk_up)) {
+	sprite_index = spr_cynisca_run_day;
+    image_speed = 0.5;
+    move_speed += move_acceleration;
+}
+
 
 // Clamp to max
 if (move_speed > move_max_speed) move_speed = move_max_speed;
@@ -46,6 +51,15 @@ if (powerup_active) {
 		show_debug_message("Powerup_offline");
 		
     }
+}
+// Idle animation: play spr_idle when player is NOT pressing Up (vk_up)
+if (!keyboard_check(vk_up)) {
+    sprite_index = spr_cynisca_idle_day;
+    image_speed = 0.2;  // Adjust idle animation speed as needed
+} else {
+    // Optionally, if you have a running or moving sprite, set it here
+	sprite_index = spr_cynisca_run_day;
+    image_speed = 0.5;
 }
 
 // CHEAT: Unlimited Boost - keep speed at max
