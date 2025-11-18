@@ -48,7 +48,7 @@ var y_pos = 50;
 
 // Draw timer text
 draw_set_color(c_black);
-draw_set_font(Game_Font);
+draw_set_font(fnt_times_40);
  // Use a font you created for timers, or omit for default
 draw_text(x_pos, y_pos, timer_text);
 show_debug_message("Timer: " + timer_text)

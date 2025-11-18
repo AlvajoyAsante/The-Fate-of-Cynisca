@@ -61,5 +61,3 @@ draw_rectangle(box_x3, box_y3, box_x4, box_y4, true);
 // Draw text (use your black color or any)
 draw_set_color(c_black);
 draw_text(x3 - string_width(msg2), y3, msg3);
-
-

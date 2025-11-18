@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_powerup",
-    "path":"sprites/spr_placeholder_powerup/spr_placeholder_powerup.yy",
+    "name":"spr_speed_powerup_icon",
+    "path":"sprites/spr_speed_powerup_icon/spr_speed_powerup_icon.yy",
   },
   "spriteMaskId":null,
   "visible":true,
