@@ -107,7 +107,6 @@
     {"id":{"name":"spr_sky_night","path":"sprites/spr_sky_night/spr_sky_night.yy",},},
     {"id":{"name":"spr_sky_sunset","path":"sprites/spr_sky_sunset/spr_sky_sunset.yy",},},
     {"id":{"name":"spr_speed_powerup_icon","path":"sprites/spr_speed_powerup_icon/spr_speed_powerup_icon.yy",},},
-    {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
