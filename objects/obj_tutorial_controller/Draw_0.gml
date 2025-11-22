@@ -2,7 +2,7 @@ var message = "Welcome to Cynisca's Life.";
 var x1 = 1500 // Center of the screen
 var y1 = 100;                     // Y position you want (example)
 draw_set_color(c_black);
-draw_set_font(Game_Font);    // Your font resource
+draw_set_font(fnt_times_40);    // Your font resource
 // Center the text horizontally
 draw_text(x1 - string_width(message) , y1, message);
 

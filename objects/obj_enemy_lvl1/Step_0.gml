@@ -1,3 +1,4 @@
+image_speed=0.5;
 if (global.game_over) {
     speed = 0;
 }

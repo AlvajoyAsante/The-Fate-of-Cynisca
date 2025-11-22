@@ -55,7 +55,7 @@ if (powerup_active) {
 // Idle animation: play spr_idle when player is NOT pressing Up (vk_up)
 if (!keyboard_check(vk_up)) {
     sprite_index = spr_cynisca_idle_day;
-    image_speed = 0.2;  // Adjust idle animation speed as needed
+    image_speed = 0.5;  // Adjust idle animation speed as needed
 } else {
     // Optionally, if you have a running or moving sprite, set it here
 	sprite_index = spr_cynisca_run_day;
