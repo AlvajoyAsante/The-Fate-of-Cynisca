@@ -52,5 +52,5 @@ draw_set_font(fnt_times_40);
  // Use a font you created for timers, or omit for default
 draw_text(x_pos, y_pos, timer_text);
 show_debug_message("Timer: " + timer_text)
-draw_text(1200, 20, "Timer:" + timer_text);
+//draw_text(1200, 20, "Timer:" + timer_text);
 
