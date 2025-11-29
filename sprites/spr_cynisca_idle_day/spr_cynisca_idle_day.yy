@@ -31,7 +31,7 @@
   ],
   "name":"spr_cynisca_idle_day",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -67,7 +67,6 @@
     },
     "name":"spr_cynisca_idle_day",
     "playback":1,
-
     "playbackSpeed":20.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
@@ -108,8 +107,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":836,
+    "yorigin":914,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

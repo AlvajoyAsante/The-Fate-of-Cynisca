@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_emeny_lvl1",
-    "path":"sprites/spr_placeholder_emeny_lvl1/spr_placeholder_emeny_lvl1.yy",
+    "name":"spr_zeus_run_day",
+    "path":"sprites/spr_zeus_run_day/spr_zeus_run_day.yy",
   },
   "spriteMaskId":null,
   "visible":true,
