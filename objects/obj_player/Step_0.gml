@@ -1,12 +1,45 @@
-if (slow_active) {
-    slow_timer -= 1;
-    if (slow_timer <= 0) {
-        slow_active   = false;
-        move_max_speed = 5;          // back to normal speed
-        // Return to normal sprite (idle or run as you already do)
-        // e.g. sprite_index = spr_cynisca_run_day;
+// Slow only when on the ground AND inside the hole
+if (on_ground && place_meeting(x, y, obj_hole_static)) {
+    if (!on_hole) {
+        on_hole = true;
+        move_max_speed = move_slow_speed; // slow when stepping into hole
+    }
+} else {
+    if (on_hole) {
+        on_hole = false;
+        move_max_speed = 5; // restore when leaving hole
     }
 }
+
+for (var i = 0; i < 3; i++) {
+    if (!hole_done[i]) {
+        // player gets close enough to this hole position
+        if (abs(x - hole_x[i]) < trigger_distance) {
+            hole_done[i] = true;
+            
+            // Level 2: Water animation from top
+            if (global.current_level == 2) {
+                var strike_x = hole_x[i];
+                var strike_y = hole_y-40; // top of window
+                var inst = instance_create_layer(strike_x, strike_y, "Player", obj_water_anim);
+                inst.target_y = hole_y;
+                inst.sprite_index = spr_water_anim;  // Use water sprite
+            }
+            // Level 1: Keep existing thunder (or add similar condition)
+            else {
+                var strike_x = hole_x[i];
+                var strike_y = 0;
+                var inst = instance_create_layer(strike_x, strike_y, "Player", obj_thunder_anim);
+                inst.target_y = hole_y;
+            }
+        }
+    }
+}
+
+
+
+
+
 
 
 
@@ -21,6 +54,8 @@ if (y >= ground_level) {
 
 if (keyboard_check_pressed(vk_space) && on_ground) {
     vspeed = jump_speed;
+    // give a little forward push when jumping
+    move_speed += 20; // tweak this value for how far forward you want
     sprite_index = Cynisca_day_jump;
     image_speed = 0.5;
 }
@@ -63,23 +98,44 @@ if (keyboard_check_pressed(vk_up)) {
     w_press_count += 1;
 }
 
-// --- POWERUP CODE ---
-if (has_powerup && keyboard_check_pressed(ord("P")) && !powerup_active) {
-    powerup_active = true;
-    powerup_timer = room_speed * 5;
-    show_debug_message("Powerup_online");
-    has_powerup = false;
-    move_max_speed *= 2;
-}
-
-if (powerup_active) {
-    powerup_timer -= 1;
-    if (powerup_timer <= 0) {
-        powerup_active = false;
-        move_max_speed = 5;
-        show_debug_message("Powerup_offline");
+// --- POWERUP ACTIVATION (P key cycles available powerups) ---
+if (keyboard_check_pressed(ord("P"))) {
+    if (has_speed_powerup && !powerup_active && !invincible_active) {
+        powerup_active = true;
+        speed_powerup_timer = powerup_duration;
+        has_speed_powerup = false;  // Remove from inventory
+        move_max_speed *= 2;
+        show_debug_message("Speed powerup online");
+    }
+    else if (has_invincible && !invincible_active && !powerup_active) {
+        invincible_active = true;
+        invincible_timer = powerup_duration;
+        has_invincible = false;     // Remove from inventory
+        move_speed = 20;             // Lock speed at 15
+        show_debug_message("Invincible online");
     }
 }
+
+// Speed powerup timer
+if (powerup_active) {
+    speed_powerup_timer -= 1;
+    if (speed_powerup_timer <= 0) {
+        powerup_active = false;
+        move_max_speed = 5;  // Reset
+        show_debug_message("Speed powerup offline");
+    }
+}
+
+// Invincible timer & speed lock (overrides everything)
+if (invincible_active) {
+    invincible_timer -= 1;
+    move_speed = 20;  // Constant 8 speed, ignores holes/decel
+    if (invincible_timer <= 0) {
+        invincible_active = false;
+        show_debug_message("Invincible offline");
+    }
+}
+
 
 // --- ANIMATION LOGIC ---
 if (on_ground) {
@@ -91,7 +147,8 @@ if (on_ground) {
         image_speed = 0.5;
     }
 }
-// When NOT on ground, jump code above sets sprite to cynisca_day_jump
+// when NOT on ground, the jump code above keeps Cynisca_day_jump
+
 
 // --- CHEAT CODE FOR BOOST ---
 if (global.cheat_unlimited_boost) {
