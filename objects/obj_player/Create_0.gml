@@ -19,9 +19,9 @@ slow_active    = false;
 slow_timer     = 0;
 thunder_triggered = false;
 // X positions where each hole will appear
-hole_x[0] = 1500;
-hole_x[1] = 4500;
-hole_x[2] = 7000;
+hole_x[0] = 3500;
+hole_x[1] = 6500;
+hole_x[2] = 8000;
 
 hole_y     = 800;      // same Y for all holes
 hole_done[0] = false;

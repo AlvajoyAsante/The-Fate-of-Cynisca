@@ -10,5 +10,5 @@ dash_timer = 0;
 dash_cooldown = irandom_range(60, 180); 
 start_idle_timer = room_speed * 5; // 5 seconds; room_speed is FPS (e.g. 60)
 behavior_active = false;     
-sprite_index = spr_zeus_run_day; // Replace with your actual idle sprite name
+sprite_index = spr_zeus_idle; 
 speed = 0;                    // Don't move during idle// Flag to activate movement/dash after idle

@@ -20,18 +20,27 @@ for (var i = 0; i < 3; i++) {
             // Level 2: Water animation from top
             if (global.current_level == 2) {
                 var strike_x = hole_x[i];
-                var strike_y = hole_y-40; // top of window
+                var strike_y = hole_y-5; 
                 var inst = instance_create_layer(strike_x, strike_y, "Player", obj_water_anim);
                 inst.target_y = hole_y;
                 inst.sprite_index = spr_water_anim;  // Use water sprite
             }
             // Level 1: Keep existing thunder (or add similar condition)
-            else {
-                var strike_x = hole_x[i];
+            else if (global.current_level==1){
+				var strike_x = hole_x[i];
                 var strike_y = 0;
                 var inst = instance_create_layer(strike_x, strike_y, "Player", obj_thunder_anim);
                 inst.target_y = hole_y;
             }
+			else if (global.current_level==3){
+				var strike_x=hole_x[i];
+				var strike_y=hole_y-5;
+				var inst = instance_create_layer(strike_x, strike_y, "Player", obj_fire_anim);
+                inst.target_y = hole_y;
+                inst.sprite_index = spr_fire_anim;  // Use water sprite
+				
+			}
+			
         }
     }
 }
