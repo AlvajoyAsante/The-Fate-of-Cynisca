@@ -1,0 +1,1 @@
+global.current_level = 2;

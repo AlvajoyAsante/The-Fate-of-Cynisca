@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hole",
-    "path":"sprites/spr_hole/spr_hole.yy",
+    "name":"spr_thunder_anim",
+    "path":"sprites/spr_thunder_anim/spr_thunder_anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,
