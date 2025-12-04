@@ -1,31 +1,30 @@
-// Slow only when on the ground AND inside the hole
+
 if (on_ground && place_meeting(x, y, obj_hole_static)) {
     if (!on_hole) {
         on_hole = true;
-        move_max_speed = move_slow_speed; // slow when stepping into hole
+        move_max_speed = move_slow_speed; 
     }
 } else {
     if (on_hole) {
         on_hole = false;
-        move_max_speed = 5; // restore when leaving hole
+        move_max_speed = 5; 
     }
 }
 
 for (var i = 0; i < 3; i++) {
     if (!hole_done[i]) {
-        // player gets close enough to this hole position
+        
         if (abs(x - hole_x[i]) < trigger_distance) {
             hole_done[i] = true;
-            
-            // Level 2: Water animation from top
+                      
             if (global.current_level == 2) {
                 var strike_x = hole_x[i];
                 var strike_y = hole_y-5; 
                 var inst = instance_create_layer(strike_x, strike_y, "Player", obj_water_anim);
                 inst.target_y = hole_y;
-                inst.sprite_index = spr_water_anim;  // Use water sprite
+                inst.sprite_index = spr_water_anim;  
             }
-            // Level 1: Keep existing thunder (or add similar condition)
+            
             else if (global.current_level==1){
 				var strike_x = hole_x[i];
                 var strike_y = 0;
@@ -37,7 +36,7 @@ for (var i = 0; i < 3; i++) {
 				var strike_y=hole_y-5;
 				var inst = instance_create_layer(strike_x, strike_y, "Player", obj_fire_anim);
                 inst.target_y = hole_y;
-                inst.sprite_index = spr_fire_anim;  // Use water sprite
+                inst.sprite_index = spr_fire_anim;  
 				
 			}
 			
@@ -46,13 +45,6 @@ for (var i = 0; i < 3; i++) {
 }
 
 
-
-
-
-
-
-
-// --- JUMP AND GRAVITY PHYSICS ---
 if (y >= ground_level) {
     on_ground = true;
     y = ground_level;
@@ -63,21 +55,19 @@ if (y >= ground_level) {
 
 if (keyboard_check_pressed(vk_space) && on_ground) {
     vspeed = jump_speed;
-    // give a little forward push when jumping
-    move_speed += 20; // tweak this value for how far forward you want
+    
+    move_speed += 20; 
     sprite_index = Cynisca_day_jump;
     image_speed = 0.5;
 }
 
-// Apply gravity and jump movement
 if (!on_ground) {
     vspeed += gravity;
     y += vspeed;
-    sprite_index = Cynisca_day_jump; // Show jump sprite while airborne
+    sprite_index = Cynisca_day_jump; 
     image_speed = 0.5;
 }
 
-// --- ACCELERATION AND MOVEMENT ---
 if (keyboard_check_pressed(vk_up)) {
     move_speed += move_acceleration;
 }
@@ -90,16 +80,13 @@ if (auto_move || keyboard_check_pressed(vk_up)) {
     move_speed += move_acceleration;
 }
 
-// --- DECELERATION ---
 if (move_speed > 0) {
     move_speed -= move_deceleration;
     if (move_speed < 0) move_speed = 0;
 }
 
-// --- CLAMP TO MAX SPEED ---
 if (move_speed > move_max_speed) move_speed = move_max_speed;
 
-// --- HORIZONTAL MOVEMENT ---
 x += move_speed;
 
 // --- W KEY COUNT ---
@@ -156,7 +143,6 @@ if (on_ground) {
         image_speed = 0.5;
     }
 }
-// when NOT on ground, the jump code above keeps Cynisca_day_jump
 
 
 // --- CHEAT CODE FOR BOOST ---

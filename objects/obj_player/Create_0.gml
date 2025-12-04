@@ -12,26 +12,23 @@ auto_move = false;
 gravity = 1;
 jump_speed = -15;
 vspeed = 0;
-on_ground = true; // Start on ground, adjust as needed
-ground_level = y; // Set this to your ground/platform y value when spawning
-move_max_speed = 5;        // your normal max speed
+on_ground = true; 
+ground_level = y; 
+move_max_speed = 5;        
 slow_active    = false;
 slow_timer     = 0;
 thunder_triggered = false;
-// X positions where each hole will appear
 hole_x[0] = 3500;
 hole_x[1] = 6500;
 hole_x[2] = 8000;
-
-hole_y     = 800;      // same Y for all holes
+hole_y     = 800;      
 hole_done[0] = false;
 hole_done[1] = false;
 hole_done[2] = false;
 
-// how close the player must be for thunder to start
 trigger_distance = 500;
 
-move_max_speed   = 5;
+
 move_slow_speed  = 3;
 on_hole          = false;
 
