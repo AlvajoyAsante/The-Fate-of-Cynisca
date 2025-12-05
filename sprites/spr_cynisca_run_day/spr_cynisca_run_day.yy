@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"cynisca",
+    "path":"folders/Sprites/cynisca.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

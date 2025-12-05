@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"goto_room","path":"objects/obj_button_parent/obj_button_parent.yy",},"resource":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_level_2",},
   ],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"menus",
+    "path":"folders/Objects/menus.yy",
   },
   "parentObjectId":{
     "name":"obj_button_parent",
