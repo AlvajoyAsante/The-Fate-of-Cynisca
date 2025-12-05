@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_button",
-    "path":"sprites/spr_placeholder_button/spr_placeholder_button.yy",
+    "name":"spr_button_help",
+    "path":"sprites/spr_button_help/spr_button_help.yy",
   },
   "spriteMaskId":null,
   "visible":true,

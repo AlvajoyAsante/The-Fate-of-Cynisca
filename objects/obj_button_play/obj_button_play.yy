@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_button_play",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PLAY",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"goto_room","path":"objects/obj_button_parent/obj_button_parent.yy",},"resource":{"name":"rm_menu_select_lvl1","path":"rooms/rm_menu_select_lvl1/rm_menu_select_lvl1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_menu_select_lvl1",},
   ],
   "parent":{
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_button",
-    "path":"sprites/spr_placeholder_button/spr_placeholder_button.yy",
+    "name":"spr_button_play",
+    "path":"sprites/spr_button_play/spr_button_play.yy",
   },
   "spriteMaskId":null,
   "visible":true,
