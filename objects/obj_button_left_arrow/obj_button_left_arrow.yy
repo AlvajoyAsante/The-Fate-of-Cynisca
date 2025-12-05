@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_larrow_button",
-    "path":"sprites/spr_placeholder_larrow_button/spr_placeholder_larrow_button.yy",
+    "name":"spr_button_larrow",
+    "path":"sprites/spr_button_larrow/spr_button_larrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

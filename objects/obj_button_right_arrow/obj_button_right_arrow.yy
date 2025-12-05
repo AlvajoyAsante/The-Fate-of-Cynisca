@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_rarrow_button",
-    "path":"sprites/spr_placeholder_rarrow_button/spr_placeholder_rarrow_button.yy",
+    "name":"spr_button_rarrow",
+    "path":"sprites/spr_button_rarrow/spr_button_rarrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,
