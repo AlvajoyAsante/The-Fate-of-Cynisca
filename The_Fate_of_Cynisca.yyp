@@ -120,6 +120,7 @@
     {"id":{"name":"spr_hades_idle","path":"sprites/spr_hades_idle/spr_hades_idle.yy",},},
     {"id":{"name":"spr_hades_run","path":"sprites/spr_hades_run/spr_hades_run.yy",},},
     {"id":{"name":"spr_hades_slow","path":"sprites/spr_hades_slow/spr_hades_slow.yy",},},
+    {"id":{"name":"spr_help_menu","path":"sprites/spr_help_menu/spr_help_menu.yy",},},
     {"id":{"name":"spr_hole_hades","path":"sprites/spr_hole_hades/spr_hole_hades.yy",},},
     {"id":{"name":"spr_hole_pos","path":"sprites/spr_hole_pos/spr_hole_pos.yy",},},
     {"id":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},},
@@ -166,6 +167,7 @@
     {"roomId":{"name":"rm_menu_select_lvl2","path":"rooms/rm_menu_select_lvl2/rm_menu_select_lvl2.yy",},},
     {"roomId":{"name":"rm_menu_select_lvl3","path":"rooms/rm_menu_select_lvl3/rm_menu_select_lvl3.yy",},},
     {"roomId":{"name":"rm_menu_credit","path":"rooms/rm_menu_credit/rm_menu_credit.yy",},},
+    {"roomId":{"name":"rm_menu_main","path":"rooms/rm_menu_main/rm_menu_main.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
