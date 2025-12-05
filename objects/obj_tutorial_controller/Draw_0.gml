@@ -25,7 +25,7 @@ draw_set_font(Font_2);
 draw_set_color(c_black);
 draw_text(x3 - string_width(msg2), y3, msg3);
 
-var msg5 = "This here is a powerup, grab it and press P to activate it"
+var msg5 = "This here is a powerup, grab it and press Space-Bar to activate it"
 var x5 = 6600; 
 var y5 = 400; 
 

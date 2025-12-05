@@ -39,6 +39,9 @@ for (var i = 0; i < 3; i++) {
                 inst.sprite_index = spr_fire_anim;  
 				
 			}
+			else if (global.current_level==0){
+				
+			}
 			
         }
     }
@@ -51,21 +54,6 @@ if (y >= ground_level) {
     vspeed = 0;
 } else {
     on_ground = false;
-}
-
-if (keyboard_check_pressed(vk_space) && on_ground) {
-    vspeed = jump_speed;
-    
-    move_speed += 20; 
-    sprite_index = Cynisca_day_jump;
-    image_speed = 0.5;
-}
-
-if (!on_ground) {
-    vspeed += gravity;
-    y += vspeed;
-    sprite_index = Cynisca_day_jump; 
-    image_speed = 0.5;
 }
 
 if (keyboard_check_pressed(vk_up)) {
@@ -95,7 +83,7 @@ if (keyboard_check_pressed(vk_up)) {
 }
 
 // --- POWERUP ACTIVATION (P key cycles available powerups) ---
-if (keyboard_check_pressed(ord("P"))) {
+if (keyboard_check_pressed(vk_space)) {
     if (has_speed_powerup && !powerup_active && !invincible_active) {
         powerup_active = true;
         speed_powerup_timer = powerup_duration;
@@ -107,7 +95,7 @@ if (keyboard_check_pressed(ord("P"))) {
         invincible_active = true;
         invincible_timer = powerup_duration;
         has_invincible = false;     // Remove from inventory
-        move_speed = 20;             // Lock speed at 15
+        move_speed = 20;            
         show_debug_message("Invincible online");
     }
 }
