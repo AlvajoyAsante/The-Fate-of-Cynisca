@@ -53,7 +53,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"The_Fate_of_Cynisca",
   "resources":[
@@ -110,6 +110,14 @@
     {"id":{"name":"rm_menu_select_lvl1","path":"rooms/rm_menu_select_lvl1/rm_menu_select_lvl1.yy",},},
     {"id":{"name":"rm_menu_select_lvl2","path":"rooms/rm_menu_select_lvl2/rm_menu_select_lvl2.yy",},},
     {"id":{"name":"rm_menu_select_lvl3","path":"rooms/rm_menu_select_lvl3/rm_menu_select_lvl3.yy",},},
+    {"id":{"name":"snd_firewhoosh","path":"sounds/snd_firewhoosh/snd_firewhoosh.yy",},},
+    {"id":{"name":"snd_horsebreathing","path":"sounds/snd_horsebreathing/snd_horsebreathing.yy",},},
+    {"id":{"name":"snd_horsehooves","path":"sounds/snd_horsehooves/snd_horsehooves.yy",},},
+    {"id":{"name":"snd_horseneigh","path":"sounds/snd_horseneigh/snd_horseneigh.yy",},},
+    {"id":{"name":"snd_rollingcart","path":"sounds/snd_rollingcart/snd_rollingcart.yy",},},
+    {"id":{"name":"snd_thunder","path":"sounds/snd_thunder/snd_thunder.yy",},},
+    {"id":{"name":"snd_watercrash","path":"sounds/snd_watercrash/snd_watercrash.yy",},},
+    {"id":{"name":"snd_winds","path":"sounds/snd_winds/snd_winds.yy",},},
     {"id":{"name":"horse_neigh","path":"sounds/horse_neigh/horse_neigh.yy",},},
     {"id":{"name":"snd_rolling_cart","path":"sounds/snd_rolling_cart/snd_rolling_cart.yy",},},
     {"id":{"name":"soundeffects_jar_crash_1_","path":"sounds/soundeffects_jar_crash_1_/soundeffects_jar_crash_1_.yy",},},
