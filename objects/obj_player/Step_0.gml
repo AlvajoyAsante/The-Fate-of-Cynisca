@@ -58,6 +58,7 @@ if (y >= ground_level) {
 
 if (keyboard_check_pressed(vk_up)) {
     move_speed += move_acceleration;
+	//audio_play_sound(snd_rollingcart, 1, false);
 }
 
 if (auto_move || keyboard_check_pressed(vk_up)) {
@@ -66,6 +67,7 @@ if (auto_move || keyboard_check_pressed(vk_up)) {
         image_speed = 0.5;
     }
     move_speed += move_acceleration;
+	audio_play_sound(snd_rollingcart, 1, false);
 }
 
 if (move_speed > 0) {
