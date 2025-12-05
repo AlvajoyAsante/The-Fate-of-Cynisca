@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_emeny_lvl3",
-    "path":"sprites/spr_placeholder_emeny_lvl3/spr_placeholder_emeny_lvl3.yy",
+    "name":"spr_hades_dash",
+    "path":"sprites/spr_hades_dash/spr_hades_dash.yy",
   },
   "spriteMaskId":null,
   "visible":true,

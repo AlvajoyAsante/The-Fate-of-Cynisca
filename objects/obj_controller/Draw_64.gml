@@ -2,11 +2,9 @@ if (global.game_over) {
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     
-    // Use display/GUI coordinates, not room coordinates
     var center_x = display_get_gui_width() / 2;
     var center_y = display_get_gui_height() / 2;
     
-    // Draw text with black outline for visibility
     draw_set_color(c_black);
     for (var i = -2; i <= 2; i++) {
         for (var j = -2; j <= 2; j++) {
@@ -16,7 +14,6 @@ if (global.game_over) {
         }
     }
     
-    // Draw main text in bright color
     if (string_pos("Win", global.result_message) > 0) {
         draw_set_color(c_yellow);
     } else {
@@ -24,7 +21,6 @@ if (global.game_over) {
     }
     draw_text(center_x, center_y, global.result_message);
     
-    // Reset drawing settings
     draw_set_color(c_white);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
@@ -32,8 +28,6 @@ if (global.game_over) {
 
 show_debug_message("Draw GUI running");
 
-
-// Convert frame count to seconds and milliseconds
 var seconds = timer_frames div room_speed;
 var hundredths = ((timer_frames mod room_speed) * 100) div room_speed;;
 

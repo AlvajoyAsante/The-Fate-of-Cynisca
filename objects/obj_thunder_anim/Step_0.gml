@@ -1,5 +1,5 @@
 // move thunder down until it reaches ground
-y += 20; // fall speed
+y += 20; 
 
 if (y >= target_y) {
     y = target_y;
