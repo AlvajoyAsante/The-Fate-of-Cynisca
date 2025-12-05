@@ -58,7 +58,6 @@ if (y >= ground_level) {
 
 if (keyboard_check_pressed(vk_up)) {
     move_speed += move_acceleration;
-	//audio_play_sound(snd_rollingcart, 1, false);
 }
 
 if (auto_move || keyboard_check_pressed(vk_up)) {
@@ -92,6 +91,7 @@ if (keyboard_check_pressed(vk_space)) {
         has_speed_powerup = false;  // Remove from inventory
         move_max_speed *= 2;
         show_debug_message("Speed powerup online");
+		audio_play_sound(horse_neigh,1,false);
     }
     else if (has_invincible && !invincible_active && !powerup_active) {
         invincible_active = true;
