@@ -88,6 +88,8 @@
     {"id":{"name":"obj_hole_static_pos","path":"objects/obj_hole_static_pos/obj_hole_static_pos.yy",},},
     {"id":{"name":"obj_hole_static","path":"objects/obj_hole_static/obj_hole_static.yy",},},
     {"id":{"name":"obj_invincible","path":"objects/obj_invincible/obj_invincible.yy",},},
+    {"id":{"name":"obj_pause_menu","path":"objects/obj_pause_menu/obj_pause_menu.yy",},},
+
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_popup_help","path":"objects/obj_popup_help/obj_popup_help.yy",},},
     {"id":{"name":"obj_slowness","path":"objects/obj_slowness/obj_slowness.yy",},},
