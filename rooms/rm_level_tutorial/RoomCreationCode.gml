@@ -1,1 +1,1 @@
-global.level_type = 0;
+global.current_level = 0;
