@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Cynisca_day_jump",
+  "%Name":"spr_cynisca_jump_day",
   "bboxMode":0,
   "bbox_bottom":917,
   "bbox_left":22,
@@ -27,19 +27,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"a050e2af-1dae-40a2-9906-e09b26b254f3","blendMode":0,"displayName":"default","isLocked":false,"name":"a050e2af-1dae-40a2-9906-e09b26b254f3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Cynisca_day_jump",
+  "name":"spr_cynisca_jump_day",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"cynisca",
+    "path":"folders/Sprites/cynisca.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Cynisca_day_jump",
+    "%Name":"spr_cynisca_jump_day",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -63,7 +63,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Cynisca_day_jump",
+    "name":"spr_cynisca_jump_day",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -75,25 +75,25 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2f42339a-8c60-4743-b254-4336e75cc5a6","path":"sprites/Cynisca_day_jump/Cynisca_day_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2f42339a-8c60-4743-b254-4336e75cc5a6","path":"sprites/spr_cynisca_jump_day/spr_cynisca_jump_day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4309fe37-0ec6-4caf-9298-de8b1cb907bc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9164e56e-d22e-48fa-9191-f13d471952c6","path":"sprites/Cynisca_day_jump/Cynisca_day_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9164e56e-d22e-48fa-9191-f13d471952c6","path":"sprites/spr_cynisca_jump_day/spr_cynisca_jump_day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d8494846-7250-4b31-9c7f-373bd65f898b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4b3097a-5c44-46ce-8f48-0a3a706e76bb","path":"sprites/Cynisca_day_jump/Cynisca_day_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4b3097a-5c44-46ce-8f48-0a3a706e76bb","path":"sprites/spr_cynisca_jump_day/spr_cynisca_jump_day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6375f5f5-2988-4060-9176-d37971a31668","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9921aaa4-a6fa-42ce-83a0-84805d1a7736","path":"sprites/Cynisca_day_jump/Cynisca_day_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9921aaa4-a6fa-42ce-83a0-84805d1a7736","path":"sprites/spr_cynisca_jump_day/spr_cynisca_jump_day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e482acf1-8c9f-4245-9756-db513eb942ac","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c946872-5c87-48c9-8b19-84a0c90e03df","path":"sprites/Cynisca_day_jump/Cynisca_day_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c946872-5c87-48c9-8b19-84a0c90e03df","path":"sprites/spr_cynisca_jump_day/spr_cynisca_jump_day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"df22e441-e596-4754-aedd-58fd42e978cb","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"70c43d7a-3f76-4a20-8c6d-2c9e21308c03","path":"sprites/Cynisca_day_jump/Cynisca_day_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"70c43d7a-3f76-4a20-8c6d-2c9e21308c03","path":"sprites/spr_cynisca_jump_day/spr_cynisca_jump_day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"dd7f7762-380c-40c2-a7ab-c5813d56f063","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0ce1078-2dd3-400c-a65a-b931b509d4af","path":"sprites/Cynisca_day_jump/Cynisca_day_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0ce1078-2dd3-400c-a65a-b931b509d4af","path":"sprites/spr_cynisca_jump_day/spr_cynisca_jump_day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f056efd8-ca67-4315-965d-01fbf3e66a22","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
