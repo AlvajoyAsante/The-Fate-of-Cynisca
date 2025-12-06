@@ -180,6 +180,7 @@
     {"id":{"name":"spr_sky_night","path":"sprites/spr_sky_night/spr_sky_night.yy",},},
     {"id":{"name":"spr_sky_sunset","path":"sprites/spr_sky_sunset/spr_sky_sunset.yy",},},
     {"id":{"name":"spr_speed_powerup_icon","path":"sprites/spr_speed_powerup_icon/spr_speed_powerup_icon.yy",},},
+    {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},},
     {"id":{"name":"spr_thunder_anim","path":"sprites/spr_thunder_anim/spr_thunder_anim.yy",},},
     {"id":{"name":"spr_title_hero","path":"sprites/spr_title_hero/spr_title_hero.yy",},},
     {"id":{"name":"spr_water_anim","path":"sprites/spr_water_anim/spr_water_anim.yy",},},
