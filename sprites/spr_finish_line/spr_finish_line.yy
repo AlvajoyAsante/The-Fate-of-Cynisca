@@ -3,7 +3,7 @@
   "%Name":"spr_finish_line",
   "bboxMode":0,
   "bbox_bottom":991,
-  "bbox_left":323,
+  "bbox_left":0,
   "bbox_right":677,
   "bbox_top":9,
   "collisionKind":1,
