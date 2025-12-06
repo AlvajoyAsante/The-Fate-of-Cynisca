@@ -1,4 +1,10 @@
 
+if (!global.race_started) {
+    sprite_index = spr_zeus_idle;
+    speed = 0;
+    exit;
+}
+
 if (!behavior_active) {
     sprite_index = spr_zeus_idle;
     speed = 0;
@@ -44,10 +50,10 @@ if (dash_timer == 0) {
     dash_cooldown -= 1;
     if (dash_cooldown <= 0) {
         // Start dashing!
-        dash_timer = irandom_range(10, 30); 
+        dash_timer = irandom_range(20, 50); 
         sprite_index = spr_zeus_dash;            
         speed = speed_horse * 2;            
-        dash_cooldown = irandom_range(60, 180); 
+        dash_cooldown = irandom_range(45, 120); 
     }
 }
 

@@ -3,6 +3,14 @@ if (!variable_global_exists("level3_best_time")) {
     global.level3_best_time = -1;
 }
 
+// Ensure level unlock system is initialized
+if (!variable_global_exists("level_unlocked")) {
+    global.level_unlocked = [];
+    global.level_unlocked[1] = true;  // Level 1 is always open
+    global.level_unlocked[2] = false;
+    global.level_unlocked[3] = false;
+}
+
 image_speed = 0; // Stop animation
 
 // Set frame based on best time
@@ -26,4 +34,13 @@ if (global.level3_best_time == -1) {
     } else {
         image_index = 0; // 0 stars
     }
+}
+
+// Visual Lock Indicator
+if (!global.level_unlocked[3]) {
+    image_alpha = 0.5; // Dim the button if locked
+    image_blend = c_gray;
+} else {
+    image_alpha = 1;
+    image_blend = c_white;
 }

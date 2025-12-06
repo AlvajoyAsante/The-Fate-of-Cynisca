@@ -19,6 +19,8 @@ if (!global.game_over) {
                 global.level1_best_time = _current_time;
             }
         }
+        // Unlock Level 2
+        global.level_unlocked[2] = true;
     }
     // Save Best Time for Level 2
     else if (room == rm_level_2) {
@@ -32,6 +34,8 @@ if (!global.game_over) {
                 global.level2_best_time = _current_time;
             }
         }
+        // Unlock Level 3
+        global.level_unlocked[3] = true;
     }
     // Save Best Time for Level 3
     else if (room == rm_level_3) {

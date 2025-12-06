@@ -1,4 +1,14 @@
-timer_frames += 1;
+// Countdown Logic
+if (countdown_timer > 0) {
+    countdown_timer -= 1;
+} else {
+    global.race_started = true;
+    // Continue decrementing to time the "GO!" message display (e.g. for 1 second)
+    if (countdown_timer > -room_speed) {
+        countdown_timer -= 1;
+    }
+    timer_frames += 1;
+}
 
 // Pause Game
 if (keyboard_check_pressed(vk_escape)) {
@@ -15,7 +25,7 @@ if (global.game_over) {
         } else if (room == rm_level_2) {
             room_goto(rm_cs_lvl3_hades);
         } else if (room == rm_level_3) {
-            room_goto(rm_menu_main);
+            room_goto(rm_menu_credit);
         } else if (room == rm_level_tutorial) {
             room_goto(rm_menu_main);
         } else {
