@@ -19,6 +19,14 @@ if (_is_on_ground && place_meeting(x, y, obj_hole_static)) {
     }
 }
 
+// --- APPLY POWERUP EFFECTS TO MAX SPEED ---
+if (powerup_active) {
+    move_max_speed *= 2;
+}
+if (invincible_active) {
+    move_max_speed = 20;
+}
+
 for (var i = 0; i < 3; i++) {
     if (!hole_done[i]) {
         
@@ -121,7 +129,7 @@ if (keyboard_check_pressed(vk_space)) {
         powerup_active = true;
         speed_powerup_timer = powerup_duration;
         has_speed_powerup = false;  // Remove from inventory
-        move_max_speed *= 2;
+        // move_max_speed *= 2; // Handled at start of step
         show_debug_message("Speed powerup online");
 		audio_play_sound(horse_neigh,1,false);
     }
@@ -139,7 +147,7 @@ if (powerup_active) {
     speed_powerup_timer -= 1;
     if (speed_powerup_timer <= 0) {
         powerup_active = false;
-        move_max_speed = 5;  // Reset
+        // move_max_speed = 5;  // Reset handled at start of step
         show_debug_message("Speed powerup offline");
     }
 }
@@ -157,7 +165,8 @@ if (invincible_active) {
 
 // --- ANIMATION LOGIC ---
 if (on_ground) {
-    if (keyboard_check(vk_up) || auto_move) {
+    // Check if moving (either by key, auto_move, or just having speed)
+    if (move_speed > 0.1 || keyboard_check(vk_up) || auto_move) {
         sprite_index = spr_cynisca_run_day;
         image_speed = 0.5;
     } else {

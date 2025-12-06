@@ -79,6 +79,7 @@
     {"id":{"name":"obj_button_skip","path":"objects/obj_button_skip/obj_button_skip.yy",},},
     {"id":{"name":"obj_button_start","path":"objects/obj_button_start/obj_button_start.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_credits_scroll","path":"objects/obj_credits_scroll/obj_credits_scroll.yy",},},
     {"id":{"name":"obj_enemy_lvl1","path":"objects/obj_enemy_lvl1/obj_enemy_lvl1.yy",},},
     {"id":{"name":"obj_enemy_lvl2","path":"objects/obj_enemy_lvl2/obj_enemy_lvl2.yy",},},
     {"id":{"name":"obj_enemy_lvl3","path":"objects/obj_enemy_lvl3/obj_enemy_lvl3.yy",},},
