@@ -1,7 +1,7 @@
 if (!global.game_over) {
     show_debug_message("Player won! Creating fireworks...");
     global.game_over = true;
-    global.result_message = "You Win! Press R to Restart";
+    global.result_message = "You Win! Press Enter to Continue";
 	speed=0;
 	
     // Save Best Time for Level 1

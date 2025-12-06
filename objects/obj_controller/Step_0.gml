@@ -7,6 +7,30 @@ if (keyboard_check_pressed(vk_escape)) {
     }
 }
 
+// Level Progression
+if (global.game_over) {
+    if (keyboard_check_pressed(vk_enter)) {
+        if (room == rm_level_1) {
+            room_goto(rm_cs_lvl2_pos);
+        } else if (room == rm_level_2) {
+            room_goto(rm_cs_lvl3_hades);
+        } else if (room == rm_level_3) {
+            room_goto(rm_menu_credit);
+        } else if (room == rm_level_tutorial) {
+            room_goto(rm_menu_main);
+        } else {
+            // Default fallback
+            room_goto(rm_menu_main);
+        }
+    }
+    
+    // Keep Restart option available
+    if (keyboard_check_pressed(ord("R"))) {
+        room_restart();
+    }
+}
+
+
 
 
 // If you want to stop the timer under some condition, add your logic here
