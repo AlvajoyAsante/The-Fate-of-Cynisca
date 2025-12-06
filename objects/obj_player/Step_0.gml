@@ -55,6 +55,20 @@ if (y >= ground_level) {
 } else {
     on_ground = false;
 }
+if (keyboard_check_pressed(vk_control) && on_ground) {
+    vspeed = jump_speed;
+    move_speed += 10; 
+    sprite_index = spr_cynisca_jump_day;
+    image_speed = 0.5;
+}
+
+if (!on_ground) {
+    vspeed += gravity;
+    y += vspeed;
+    sprite_index = spr_cynisca_jump_day; 
+    image_speed = 0.5;
+}
+
 
 if (keyboard_check_pressed(vk_up)) {
     move_speed += move_acceleration;
@@ -66,7 +80,7 @@ if (auto_move || keyboard_check_pressed(vk_up)) {
         image_speed = 0.5;
     }
     move_speed += move_acceleration;
-	audio_play_sound(snd_rollingcart, 1, false);
+	audio_play_sound(snd_rollingcart, 1, false,1, 3.91);
 }
 
 if (move_speed > 0) {
