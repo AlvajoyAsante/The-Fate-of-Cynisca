@@ -55,7 +55,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"The_Fate_of_Cynisca",
   "resources":[
@@ -194,12 +194,12 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_cs_main_storyline","path":"rooms/rm_cs_main_storyline/rm_cs_main_storyline.yy",},},
     {"roomId":{"name":"rm_menu_select_lvl3","path":"rooms/rm_menu_select_lvl3/rm_menu_select_lvl3.yy",},},
     {"roomId":{"name":"rm_level_tutorial","path":"rooms/rm_level_tutorial/rm_level_tutorial.yy",},},
     {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
     {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
-    {"roomId":{"name":"rm_cs_main_storyline","path":"rooms/rm_cs_main_storyline/rm_cs_main_storyline.yy",},},
     {"roomId":{"name":"rm_menu_help","path":"rooms/rm_menu_help/rm_menu_help.yy",},},
     {"roomId":{"name":"rm_menu_click_play","path":"rooms/rm_menu_click_play/rm_menu_click_play.yy",},},
     {"roomId":{"name":"rm_menu_select_lvl1","path":"rooms/rm_menu_select_lvl1/rm_menu_select_lvl1.yy",},},
