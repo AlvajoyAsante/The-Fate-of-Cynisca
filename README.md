@@ -42,6 +42,7 @@ You’ll race through three major levels, each with personal stakes:
 | Action        | Control         |
 | ------------- | --------------- |
 | Speed Up  | <kbd>Up Arrow </kbd>    |
+| Jump      | <kbd>Ctrl</kbd>         |
 | Use Power-Up  | <kbd>Spacebar</kbd>        |
 | Brake         | <kbd>Shift</kbd>           |
 | Pause Menu    | <kbd>Esc</kbd>             |
