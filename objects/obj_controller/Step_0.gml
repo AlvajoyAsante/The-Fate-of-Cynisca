@@ -15,7 +15,7 @@ if (global.game_over) {
         } else if (room == rm_level_2) {
             room_goto(rm_cs_lvl3_hades);
         } else if (room == rm_level_3) {
-            room_goto(rm_menu_credit);
+            room_goto(rm_menu_main);
         } else if (room == rm_level_tutorial) {
             room_goto(rm_menu_main);
         } else {

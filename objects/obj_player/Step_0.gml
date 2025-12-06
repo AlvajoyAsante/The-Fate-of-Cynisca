@@ -1,13 +1,21 @@
 
-if (on_ground && place_meeting(x, y, obj_hole_static)) {
+// Default max speed
+move_max_speed = 5;
+var _is_on_ground = (y >= ground_level);
+
+if (_is_on_ground && place_meeting(x, y, obj_hole_static)) {
     if (!on_hole) {
         on_hole = true;
         move_max_speed = move_slow_speed; 
+    } else {
+        // Keep slow speed if already on hole
+        move_max_speed = move_slow_speed;
     }
 } else {
-    if (on_hole) {
-        on_hole = false;
-        move_max_speed = 5; 
+    on_hole = false;
+    // Allow higher speed in the air to preserve jump momentum
+    if (!_is_on_ground) {
+        move_max_speed = 25;
     }
 }
 
@@ -57,7 +65,17 @@ if (y >= ground_level) {
 }
 if (keyboard_check_pressed(vk_control) && on_ground) {
     vspeed = jump_speed;
-    move_speed += 10; 
+    
+    // Extra boost if jumping from a hole
+    if (place_meeting(x, y, obj_hole_static)) {
+        move_speed += 20;
+    } else {
+        move_speed += 10;
+    }
+    
+    // Override max speed for the jump frame
+    move_max_speed = 25;
+    
     sprite_index = spr_cynisca_jump_day;
     image_speed = 0.5;
 }
