@@ -11,6 +11,7 @@
     {"name":"inst_controller_tutorial","path":"rooms/rm_level_tutorial/rm_level_tutorial.yy",},
     {"name":"inst_2A6D622","path":"rooms/rm_level_tutorial/rm_level_tutorial.yy",},
     {"name":"inst_5050AA6","path":"rooms/rm_level_tutorial/rm_level_tutorial.yy",},
+    {"name":"inst_6B044102","path":"rooms/rm_level_tutorial/rm_level_tutorial.yy",},
   ],
   "isDnd":false,
   "layers":[

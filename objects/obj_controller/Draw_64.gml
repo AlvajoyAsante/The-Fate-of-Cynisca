@@ -26,6 +26,35 @@ if (global.game_over) {
     draw_set_valign(fa_top);
 }
 
+// --- COUNTDOWN DISPLAY ---
+if (countdown_timer > -room_speed) {
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_set_font(fnt_times_40); 
+    draw_set_color(c_white);
+    
+    var center_x = display_get_gui_width() / 2;
+    var center_y = display_get_gui_height() / 2;
+    
+    var count_val = ceil(countdown_timer / room_speed);
+    var display_text = "";
+    
+    if (count_val > 0) {
+        display_text = string(count_val);
+    } else {
+        display_text = "GO!";
+    }
+    
+    // Draw with outline for better visibility
+    draw_set_color(c_black);
+    draw_text_transformed(center_x + 2, center_y + 2, display_text, 3, 3, 0);
+    draw_set_color(c_white);
+    draw_text_transformed(center_x, center_y, display_text, 3, 3, 0);
+    
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+}
+
 show_debug_message("Draw GUI running");
 
 var seconds = timer_frames div room_speed;

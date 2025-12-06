@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_6DA26DCF","path":"rooms/rm_menu_click_play/rm_menu_click_play.yy",},
     {"name":"inst_55967A06","path":"rooms/rm_menu_click_play/rm_menu_click_play.yy",},
+    {"name":"inst_46AB5DE0","path":"rooms/rm_menu_click_play/rm_menu_click_play.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +17,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7,"scaleY":0.7,"x":576.0,"y":512.0,},
         {"$GMRInstance":"v4","%Name":"inst_55967A06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55967A06","objectId":{"name":"obj_button_credit","path":"objects/obj_button_credit/obj_button_credit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.15,"scaleY":0.15,"x":96.0,"y":992.0,},
+        {"$GMRInstance":"v4","%Name":"inst_46AB5DE0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46AB5DE0","objectId":{"name":"obj_thememusic","path":"objects/obj_thememusic/obj_thememusic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_69E875B4","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_69E875B4","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8006667,"scaleY":0.74518514,"spriteId":{"name":"spr_title_hero","path":"sprites/spr_title_hero/spr_title_hero.yy",},"x":960.0,"y":352.0,},
