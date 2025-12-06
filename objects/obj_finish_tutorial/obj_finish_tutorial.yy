@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_finish_tutorial",
-    "path":"sprites/spr_finish_tutorial/spr_finish_tutorial.yy",
+    "name":"spr_finish_line",
+    "path":"sprites/spr_finish_line/spr_finish_line.yy",
   },
   "spriteMaskId":null,
   "visible":true,
